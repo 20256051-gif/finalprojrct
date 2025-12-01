@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itaewon Creative Lounge Café - Menu & Specials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🍽️ Itaewon Creative Lounge Café</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu & Specials</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="menu">
+        <h2>Menu & Specials</h2>
+        <div class="menu-filter">
+            <button class="filter-btn active" onclick="filterMenu('all', event)">All</button>
+            <button class="filter-btn" onclick="filterMenu('drinks', event)">Drinks</button>
+            <button class="filter-btn" onclick="filterMenu('ricebowls', event)">Rice Bowls</button>
+            <button class="filter-btn" onclick="filterMenu('sandwich', event)">Sandwich</button>
+            <button class="filter-btn" onclick="filterMenu('specials', event)">Specials</button>
+        </div>
+        <div class="menu-items">
+            <div class="item drinks">
+                <img src="Biscoff Indulgence.PNG" width="200" height="250"> 
+                <h3>Biscoff Indulgence</h3>
+                <p>₱185</p>
+            </div>
+            <div class="item drinks">
+                <img src="orange americano.png" width="200" height="250"> 
+                <h3>Orange Americano</h3>
+                <p>₱185</p>
+            </div>
+            <div class="item drinks">
+                <img src="salted butterscotch.jpg" width="200" height="250"> 
+                <h3>Salted Butterscotch</h3>
+                <p>₱200</p>
+            </div>
+            <div class="item drinks">
+                <img src="Dirty Matcha.jfif" width="200" height="250"> 
+                <h3>Dirty Matcha</h3>
+                <p>₱210</p>
+            </div>
+            <div class="item ricebowls">
+                <img src="Philly Steak Rice.jpg" width="200" height="250"> 
+                <h3>Philly Steak Rice</h3>
+                <p>₱220</p>
+            </div>
+            <div class="item ricebowls">
+                <img src="Chao Fan.jpg" width="200" height="250"> 
+                <h3>Chao Fan</h3>
+                <p>₱220</p>
+            </div>
+            <div class="item ricebowls">
+                <img src="Pork Salpicao.jpg" width="200" height="250"> 
+                <h3>Pork Salpicao</h3>
+                <p>₱220</p>
+            </div>
+            <div class="item ricebowls">
+                <img src="Bibimbap.jpg" width="200" height="250"> 
+                <h3>Beef Bibimbap</h3>
+                <p>₱220</p>
+            </div>
+            <div class="item sandwich">
+                <img src="Ham&Egg Sandwich.jpg" width="200" height="250"> 
+                <h3>Ham & Egg Sandwich</h3>
+                <p>₱170</p>
+            </div>
+            <div class="item sandwich">
+                <img src="Cucumber Avocado Tomato sandwich.jpg" width="200" height="250"> 
+                <h3>Cucumber Avocado Tomato Sandwich</h3>
+                <p>₱170</p>
+            </div>
+            <div class="item sandwich">
+                <img src="Club Sandwich.jpg" width="200" height="250"> 
+                <h3>Club Sandwich</h3>
+                <p>₱170</p>
+            </div>
+            <div class="item sandwich">
+                <img src="Chicken Mayonnaise Sandwich.jpg" width="200" height="250"> 
+                <h3>Chicken Mayonnaise Sandwich</h3>
+                <p>₱170</p>
+            </div>
+            <div class="item specials">
+                <img src="promo.jpg" width="200" height="250"> 
+                <h3>Biscoff Indulgence & Red Velvet</h3>
+                <p>₱300</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Itaewon Creative Lounge Cafe. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
